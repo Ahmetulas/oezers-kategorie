@@ -1,0 +1,27 @@
+section.artikel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    height: 30vh;
+    margin-top: 7vh;
+    border: 1px solid #888888;
+    box-shadow: 5px 5px 8px #888888 ;
+    
+    
+
+    div.picture{
+        display: flex;
+        height: 30vh;
+        width: 30%;
+        background-color: black;
+    }
+    div.information{
+        display: flex;
+        height: 30vh;
+        width: 70%;
+        background-color: red;
+    }
+ 
+}

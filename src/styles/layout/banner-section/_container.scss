@@ -1,0 +1,14 @@
+section.banner {
+  transition: 4s;
+  background-image: url("https://wallpapercave.com/wp/GSiwme6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  animation: slideInFromBottom 0.7s ease-in-out;
+
+}
