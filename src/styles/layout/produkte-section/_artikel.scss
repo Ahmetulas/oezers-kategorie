@@ -10,7 +10,6 @@ section.artikel{
     border: 1px solid #888888;
     box-shadow: 5px 5px 8px #888888 ;
     
-    
 
     section.picture{
         display: flex;
@@ -20,6 +19,7 @@ section.artikel{
         background-size: cover;
         background-image: url('https://images.unsplash.com/photo-1508004793667-9fd89aa81bc2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=db604ae6374ec73c7e3965413192fc53&auto=format&fit=crop&w=2255&q=80');
     }
+    
     section.information{
         display: flex;
         justify-content: space-around;
