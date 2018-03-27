@@ -11,17 +11,36 @@ section.artikel{
     
     
 
-    div.picture{
+    section.picture{
         display: flex;
         height: 30vh;
         width: 30%;
+        min-width: 200px;
         background-color: black;
     }
-    div.information{
+    section.information{
         display: flex;
+        justify-content: space-around;
+        padding-left: 60px;
+        padding-right: 60px;
+        align-items: flex-start;
+        flex-direction: column;
         height: 30vh;
         width: 70%;
-        background-color: red;
+
+        h1.headline{
+            color: red;
+            border: none;
+        }
+
+        div.preis{
+            align-self: flex-end;
+            justify-self: flex-end;
+        }
+
+        div.footer{
+            justify-self: flex-end;
+        }
     }
  
 }
