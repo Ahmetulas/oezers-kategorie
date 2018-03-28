@@ -1,20 +1,21 @@
 .box {
   display: flex;
-  height: 35vh;
-  min-width: 35%;
-  border: 1px solid black;
-  box-shadow: 4px 4px 8px #888888;          
-  margin: auto;
-  opacity: 0;
-  background-color: rgba(255, 255, 255, 0.95);
-  animation: fadeInBox 1s forwards ease-in-out 1s;
+  width: 400px;
+  height: 240px;
+  box-shadow: 4px 4px 8px #888888;
+  background-color: rgba(255, 255, 255, 1);
+  animation: fadeInBox .7s forwards ease-in-out;
   justify-content: space-around;
+  position: relative;
+  bottom: -120px;
+  left: 50%;
+  margin-left: -200px;
 
   .text{
     height: 100%;
     width: 100%;
-    color: black;    
-    font-family: Bradley Hand, cursive;        
+    color: black;
+    font-family: Bradley Hand, cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,12 +34,12 @@
 
 @keyframes fadeInBox {
   from {
-    transform: translateY(-100vh);
+    transform: translateY(200px);
     opacity: 0;
   }
 
   to {
-    transform: translateY(35vh);
+    transform: translateY(0);
     opacity: 1;
   }
 }
