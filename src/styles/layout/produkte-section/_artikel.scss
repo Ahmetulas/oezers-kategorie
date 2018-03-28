@@ -5,6 +5,7 @@ section.produkte section.artikel {
   display: flex;
   position: relative;
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+  animation: startAnim 1s forwards ease;
 
   div.preis {
     opacity: 0;
@@ -89,4 +90,13 @@ section.produkte section.artikel {
     }
   }
 
+}
+
+@keyframes startAnim {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }

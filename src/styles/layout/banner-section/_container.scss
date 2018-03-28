@@ -9,5 +9,33 @@ section.banner {
   position: static;
   justify-content: flex-start;
   align-items: flex-end;
-  animation: slideInFromBottom 0.7s ease-in-out;
+  animation: slide .7s forwards ease;
+  &::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    animation: .5s slideIn forwards ease .7s;
+    background-color: rgba(0,0,0,0.4);
+  }
+}
+
+@keyframes slide {
+  from {
+    background-position: top;
+    transform: scale(1.1);
+  }
+  to {
+    background-position: center;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    height: 0;
+  }
+  to {
+    height: 70vh;
+  }
 }
