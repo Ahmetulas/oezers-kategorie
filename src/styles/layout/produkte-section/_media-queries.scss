@@ -1,0 +1,47 @@
+@media (max-width: $tablet-width-big) {}
+@media (max-width: $tablet-width-small) {}
+@media (max-width: $tablet-width-xsmall) {
+  section.produkte section.artikel {
+    flex-direction: column;
+    height: 700px;
+    background: none;
+    section.picture {
+      height: 60%;
+      width: 100%;
+      &::before {
+        height: 60%;
+        width: 100%;
+      }
+    }
+    section.information {
+      width: 100%;
+      height: 40%;
+    }
+  }
+}
+@media (max-width: $smartphone-width-big) {
+  section.produkte section.artikel {
+    flex-direction: column;
+    height: 700px;
+    background: none;
+    div.preis {
+      width: 100px;
+      opacity: 1;
+    }
+    section.picture {
+      height: 40%;
+      width: 100%;
+      &::before {
+        height: 40%;
+        width: 100%;
+      }
+    }
+    section.information {
+      width: 100%;
+      height: 60%;
+    }
+  }
+}
+@media (max-width: 320px) {
+
+}

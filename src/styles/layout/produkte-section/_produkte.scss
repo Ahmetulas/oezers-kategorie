@@ -1,17 +1,13 @@
 .produkte{
-    margin: 200px 0;
-    display: flex;
-    width: 100%;
+    margin: 200px auto;
+    width: 90%;
     background-color: rgb(255, 255, 255);
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
 
      h1{
         color:black;
-        width: 80%;
+        width: 100%;
         margin: auto;
-        justify-self: flex-start;
+        padding-bottom: 10px;
         align-self: flex-start;
         margin-bottom: 50px;
         font-size: 40px;
