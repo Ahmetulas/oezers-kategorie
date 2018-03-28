@@ -1,3 +1,9 @@
+$tablet-width-big: 1366px;
+$tablet-width-small: 1280px;
+$tablet-width-xsmall: 1024px;
+$smartphone-width-big: 768px;
+$smartphone-width-small: 375px;
+
 @import './banner-section/main';
 @import './header-section/main';
 @import './footer-section/main';

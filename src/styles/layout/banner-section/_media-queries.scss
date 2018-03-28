@@ -1,0 +1,18 @@
+@media (max-width: $tablet-width-big) {}
+@media (max-width: $tablet-width-small) {}
+@media (max-width: $tablet-width-xsmall) {}
+@media (max-width: $smartphone-width-big) {
+  .box {
+    width: 80%;
+    margin-left: -40%;
+  }
+  section.banner {
+    height: 50vh;
+  }
+}
+@media (max-width: 320px) {
+  .box {
+    height: 120px;
+    bottom: -60px;
+  }
+}
